@@ -1,0 +1,163 @@
+.intro {
+  font-family: var(--font-poppins);
+}
+.intro__wrapper {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 74px 28px 117px;
+
+  @media (min-width: 768px) {
+   flex-direction: row;
+   gap: 32px;
+  text-align: left;
+  }
+}
+.intro__heading-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  @media (min-width: 768px) {
+    width: 100%;
+  }
+}
+.intro__heading {
+  font-size: 47px;
+  font-weight: 600;
+  line-height: 120%;
+  margin-bottom: 9px;
+
+  @media (min-width: 768px) {
+    font-size: 53px;
+    margin-bottom: 11px;
+  }
+}
+.intro__text {
+  font-family: var(--font-inter);
+  font-size: 11px;
+  font-weight: 400;
+  margin-bottom: 42px;
+
+  @media (min-width: 768px) {
+    margin-bottom: 31px;
+  }
+}
+.intro__buttons {
+  display: flex;
+  gap: 17px;
+  width: 90%;
+  margin-bottom: 19px;
+
+  @media (min-width: 768px) {
+    margin-bottom: 58px;
+    width: 100%;
+  }
+}
+.intro__button {
+  width: 100%;
+  border: 1px solid black;
+  padding: 15px;
+  border-radius: 9px;
+  text-align: center;
+  text-transform: uppercase;
+
+  font-size: 11px;
+
+  &--black {
+    background-color: black;
+    color: white;
+    max-width: 100%;
+  }
+
+  &--white {
+    background-color: white;
+    color: black;
+    max-width: max-content;
+  }
+
+  @media (min-width: 768px) {
+    padding: 12px;
+    max-width: max-content;
+  }
+}
+
+.intro__rate-block {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+
+  @media (min-width: 768px) {
+    display: none;
+  }
+}
+.intro__rate-logo {
+  width: 100px;
+  height: 24px;
+
+  background-image: url('../../images/svg/trustpilot.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.intro__stars-block {
+  display: flex;
+  align-self: flex-end;
+  gap: 8px;
+}
+.intro__stars {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+.intro__star {
+  background-image: url("../../images/svg/star.svg");
+  background-size: contain;
+  width: 13px;
+  height: 13px;
+}
+.intro__star-count {
+  font-size: 13px;
+  font-weight: 500;
+}
+.intro__counters {
+  display: none;
+
+  @media (min-width: 768px) {
+    display: flex;
+    align-items: center;
+    gap: 46px;
+  }
+}
+.intro__counter {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.intro__counter-count {
+  font-family: var(--font-inter);
+  font-size: 26px;
+  font-weight: 600;
+}
+.intro__counter-title {
+  font-family: var(--font-inter);
+  font-size: 9px;
+  font-weight: 500;
+  color: #848586;
+}
+.intro__slider-block {
+  @media (min-width: 768px) {
+    width: 100%;
+  }
+}
+.intro__slider-pictures {
+}
+.intro__slider-img {
+}
+.intro__slider-buttons {
+}
+.intro__slider-button {
+}
+.intro__slider-button--left {
+}
+.intro__slider-button--right {
+}

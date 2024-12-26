@@ -30,7 +30,9 @@
 /**
 * Подключение стилей отдельных блоков и секций
 */
-@import 'components/header';
-@import 'components/footer';
-@import 'components/main';
-@import "components/modal";
+@import 'components/about.scss';
+@import 'components/header.scss';
+@import 'components/intro.scss';
+// @import 'components/footer';
+// @import 'components/main';
+// @import "components/modal";

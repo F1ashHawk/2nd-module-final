@@ -1,14 +1,47 @@
 @font-face {
-	font-family: Onest;
+	font-family: Inter;
 	font-display: swap;
-	src: url("../fonts/Onest-Regular.woff2") format("woff2");
+	src: url("../fonts/Inter-Regular.woff2") format("woff2");
 	font-weight: 400;
 	font-style: normal;
 }
+
 @font-face {
-	font-family: Onest;
+	font-family: Inter;
 	font-display: swap;
-	src: url("../fonts/Onest-SemiBold.woff2") format("woff2");
+	src: url("../fonts/Inter-SemiBold.woff2") format("woff2");
 	font-weight: 600;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: Manrope;
+	font-display: swap;
+	src: url("../fonts/Manrope-SemiBold.woff2") format("woff2");
+	font-weight: 600;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: Poppins;
+	font-display: swap;
+	src: url("../fonts/Poppins-Medium.woff2") format("woff2");
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: Poppins;
+	font-display: swap;
+	src: url("../fonts/Poppins-Regular.woff2") format("woff2");
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: Poppins;
+	font-display: swap;
+	src: url("../fonts/Poppins-SemiBold.woff2") format("woff2");
+	font-weight: 500;
 	font-style: normal;
 }
