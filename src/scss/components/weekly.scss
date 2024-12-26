@@ -1,0 +1,78 @@
+.weekly {
+  background-color: #EDF2F7;
+}
+.weekly__wrapper {
+  padding: 56px 0;
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+
+  overflow: hidden;
+
+  @media (min-width: 768px) {
+    padding: 49px 0 64px;
+  }
+
+  @media (min-width: 1260px) {
+    padding: 70px 0 90px;
+  }
+}
+.weekly__title {
+  color: #C5C5C5;
+  margin-bottom: 63px;
+
+  @media (min-width: 768px) {
+    margin-bottom: 70px;
+  }
+
+  @media (min-width: 1260px) {
+    margin-bottom: 100px;
+  }
+}
+
+.weekly__slider {
+  display: flex;
+  justify-content: center;
+  gap: 28px;
+
+  width: 100%;
+
+  margin-bottom: 60px;
+
+  @media (min-width: 768px) {
+    margin-bottom: 80px;
+  }
+
+  @media (min-width: 1260px) {
+    margin-bottom: 114px;
+  }
+}
+.weekly__card {
+  min-width: 200px;
+  height: 284px;
+
+  @media (min-width: 1260px) {
+    min-width: 281px;
+    height: 402px;
+  }
+}
+.weekly__buttons {
+  width: 102px;
+  height: 42px;
+  display: flex;
+
+  border-radius: 10px;
+
+  @media (min-width: 1260px) {
+    width: 166px;
+    height: 70px;
+  }
+}
+.weekly__button {
+  width: 100%;
+  background-color: #FCFCFD;
+
+}
